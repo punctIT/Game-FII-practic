@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ControlerScripts\MoveCameraPositon.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
+    <Compile Include="Assets\Scripts\CameraChange.cs" />
     <Compile Include="Assets\Scripts\ControlerScripts\CharacterControler.cs" />
     <Compile Include="Assets\Scripts\ControlerScripts\DetectObject.cs" />
     <Compile Include="Assets\Scripts\ControlerScripts\CameraRotation.cs" />
