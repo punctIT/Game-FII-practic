@@ -1,0 +1,37 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Door : MonoBehaviour
+{
+
+ private bool isOpen = false;
+    public Transform door; // Asignează manual obiectul care se rotește
+    public float rotationSpeed = 90f; // Grade pe secundă
+
+    private Quaternion closedRotation;
+    private Quaternion openRotation;
+
+    void Start()
+    {
+        closedRotation = door.rotation;
+        openRotation = closedRotation * Quaternion.Euler(0, 90, 0); // Adaugă 90° la rotirea inițială
+    }
+
+    public void OpenDoor()
+    {
+        StopAllCoroutines(); // Evită bug-uri dacă apeși rapid
+        StartCoroutine(RotateDoor(isOpen ? closedRotation : openRotation));
+        isOpen = !isOpen; // Comută starea ușii
+    }
+
+    IEnumerator RotateDoor(Quaternion targetRotation)
+    {
+        while (Quaternion.Angle(door.rotation, targetRotation) > 0.1f)
+        {
+            door.rotation = Quaternion.RotateTowards(door.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+            yield return null;
+        }
+        door.rotation = targetRotation; // Fixează poziția finală exactă
+    }
+}
