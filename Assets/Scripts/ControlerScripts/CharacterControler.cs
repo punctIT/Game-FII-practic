@@ -3,6 +3,11 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("Step Climbing")]
+    public float stepHeight = 0.3f;
+    public float stepSmooth = 0.1f;
+    public float stepRayLength = 0.3f;
+
     [Header("Movement")]
     public float moveSpeed = 5f;
     public float groundDrag = 5f;
@@ -12,7 +17,7 @@ public class PlayerController : MonoBehaviour
     public float fallMultiplier = 3.5f;
     public float lowJumpMultiplier = 3f;
     private bool readyToJump = true;
-    [HideInInspector]
+
     public bool JumpActive = false;
     
     [Header("Keybinds")]
@@ -66,7 +71,9 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        
         MovePlayer();
+        StepClimb();
         SpeedControl();
     }
 
@@ -86,6 +93,31 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(crouchKey)) StartCrouch();
         if (Input.GetKeyUp(crouchKey)) StopCrouch();
     }
+    private void StepClimb()
+    {
+        if (!grounded || isCrouching) return;
+        
+        float rayForwardDistance = 0.5f;
+        float lowerRayHeight = 0.1f;
+        float upperRayHeight = stepHeight;
+
+        Vector3 originLower = transform.position + new Vector3(0f, lowerRayHeight, 0f);
+        Vector3 originUpper = transform.position + new Vector3(0f, upperRayHeight, 0f);
+
+        // Cast din fața jucătorului
+        if (Physics.Raycast(originLower, orientation.forward, out RaycastHit hitLower, rayForwardDistance, whatIsGround))
+        {
+            if (!Physics.Raycast(originUpper, orientation.forward, rayForwardDistance, whatIsGround))
+            {
+                rb.position += new Vector3(0f, stepSmooth, 0f);
+            }
+        }
+
+        // Debug rays (opțional)
+        Debug.DrawRay(originLower, orientation.forward * rayForwardDistance, Color.red);
+        Debug.DrawRay(originUpper, orientation.forward * rayForwardDistance, Color.green);
+    }
+
 
     private void MovePlayer()
     {

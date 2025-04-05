@@ -361,6 +361,8 @@
 "Assets/Scripts/ControlerScripts/DetectObject.cs"
 "Assets/Scripts/ControlerScripts/MoveCameraPositon.cs"
 "Assets/Scripts/Door.cs"
+"Assets/Scripts/ElevatorDoor.cs"
+"Assets/Scripts/LightSwitch.cs"
 -langversion:9.0
 /deterministic
 /optimize+

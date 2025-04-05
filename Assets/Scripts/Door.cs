@@ -8,6 +8,7 @@ public class Door : MonoBehaviour
  private bool isOpen = false;
     public Transform door; // Asignează manual obiectul care se rotește
     public float rotationSpeed = 90f; // Grade pe secundă
+    public bool isLocked = false; // Ușa este blocată sau nu
 
     private Quaternion closedRotation;
     private Quaternion openRotation;
@@ -20,6 +21,7 @@ public class Door : MonoBehaviour
 
     public void OpenDoor()
     {
+        if (isLocked) return; 
         StopAllCoroutines(); // Evită bug-uri dacă apeși rapid
         StartCoroutine(RotateDoor(isOpen ? closedRotation : openRotation));
         isOpen = !isOpen; // Comută starea ușii
