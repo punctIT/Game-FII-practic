@@ -359,6 +359,7 @@
 "Assets/Scripts/ControlerScripts/CameraRotation.cs"
 "Assets/Scripts/ControlerScripts/CharacterControler.cs"
 "Assets/Scripts/ControlerScripts/DetectObject.cs"
+"Assets/Scripts/ControlerScripts/Inventory.cs"
 "Assets/Scripts/ControlerScripts/MoveCameraPositon.cs"
 "Assets/Scripts/Door.cs"
 "Assets/Scripts/ElevatorDoor.cs"

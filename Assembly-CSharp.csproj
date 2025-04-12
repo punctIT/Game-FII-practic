@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ControlerScripts\MoveCameraPositon.cs" />
+    <Compile Include="Assets\Scripts\ControlerScripts\Inventory.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\LightSwitch.cs" />
     <Compile Include="Assets\Scripts\ControlerScripts\CharacterControler.cs" />
