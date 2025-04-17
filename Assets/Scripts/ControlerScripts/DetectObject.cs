@@ -10,29 +10,46 @@ public class DetectObject : MonoBehaviour {
   public KeyCode interactKey = KeyCode.E;  // Tasta pentru interactiune
   public float maxDistance = 5f;           // Distanta maxima de detectie
   public TMP_Text myText;
+
+  public InventoryData playerInventory;
+
   void Update() {
     RaycastHit hit;
     if (Physics.Raycast(transform.position, transform.forward, out hit, maxDistance)) {
       GameObject obj = hit.collider.gameObject;
 
       if (obj.CompareTag("Interactble")) {
-        myText.text =
-            "Apasa " + interactKey + " pentru a interactiona cu: " + obj.name;
-
+        myText.text = obj.name;
+        
         if (Input.GetKeyDown(interactKey)) {
-          Debug.Log("Te uiti la: " + obj.name);
+        
 
           if (obj.name == "Cube")
             Destroy(obj);
 
           obj.GetComponent<Door>()?.OpenDoor();
-          obj.GetComponent<LightSwitch>()?.SetLight();
           obj.GetComponent<ElevatorDoor>()?.LiftDoor();
+          obj.GetComponent<Drawer>()?.OpenDrawer();
 
-          if (obj.name == "Cube (1)") {
-            Rigidbody rb = obj.GetComponent<Rigidbody>();
-            rb.AddForce(Vector3.up * 5, ForceMode.Impulse);
+          if (obj.name == "ElevatorKey") {
+            playerInventory.elevatorKey=true;
+            Destroy(obj);
           }
+
+          if (obj.name == "Flashlight"){
+              Destroy(obj);
+              playerInventory.haveFlashLight=true;
+           }
+           if (obj.name == "BasketBall"){
+              Rigidbody rb = obj.GetComponent<Rigidbody>();
+              if (rb != null)
+              {
+                  // Direcție combinată: puțin în sus și înainte
+                  Vector3 forceDirection = (-transform.forward + Vector3.up).normalized * 100f;
+                  rb.AddForce(forceDirection);
+              }
+           }
+            
         }
       } else {
         myText.text = "";

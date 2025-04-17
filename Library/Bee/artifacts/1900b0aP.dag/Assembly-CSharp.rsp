@@ -299,6 +299,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.60f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.60f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Unity.ProBuilder.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.ref.dll"
@@ -309,9 +310,14 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.60f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/ControlerScripts/CameraRotation.cs"
 "Assets/Scripts/ControlerScripts/CharacterControler.cs"
+"Assets/Scripts/ControlerScripts/DetectObject.cs"
+"Assets/Scripts/ControlerScripts/InventoryManager/FlashLight.cs"
+"Assets/Scripts/ControlerScripts/InventoryManager/Inventory.cs"
+"Assets/Scripts/ControlerScripts/InventoryManager/InventoryData.cs"
 "Assets/Scripts/ControlerScripts/MoveCameraPositon.cs"
-"Assets/Scripts/DetectObject.cs"
-"Assets/Scripts/Door.cs"
+"Assets/Scripts/ObjectScripts/Door.cs"
+"Assets/Scripts/ObjectScripts/Drawer.cs"
+"Assets/Scripts/ObjectScripts/ElevatorDoor.cs"
 -langversion:9.0
 /deterministic
 /optimize+

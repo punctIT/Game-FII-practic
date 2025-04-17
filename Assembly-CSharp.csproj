@@ -65,13 +65,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ControlerScripts\MoveCameraPositon.cs" />
-    <Compile Include="Assets\Scripts\ControlerScripts\Inventory.cs" />
-    <Compile Include="Assets\Scripts\Door.cs" />
-    <Compile Include="Assets\Scripts\LightSwitch.cs" />
+    <Compile Include="Assets\Scripts\ControlerScripts\InventoryManager\InventoryData.cs" />
+    <Compile Include="Assets\Scripts\ObjectScripts\Drawer.cs" />
+    <Compile Include="Assets\Scripts\ControlerScripts\InventoryManager\Inventory.cs" />
+    <Compile Include="Assets\Scripts\ObjectScripts\Door.cs" />
     <Compile Include="Assets\Scripts\ControlerScripts\CharacterControler.cs" />
+    <Compile Include="Assets\Scripts\ObjectScripts\ElevatorDoor.cs" />
     <Compile Include="Assets\Scripts\ControlerScripts\DetectObject.cs" />
-    <Compile Include="Assets\Scripts\ElevatorDoor.cs" />
     <Compile Include="Assets\Scripts\ControlerScripts\CameraRotation.cs" />
+    <Compile Include="Assets\Scripts\ControlerScripts\InventoryManager\FlashLight.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
