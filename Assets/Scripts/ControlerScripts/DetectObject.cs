@@ -30,7 +30,7 @@ public class DetectObject : MonoBehaviour {
           obj.GetComponent<Door>()?.OpenDoor();
           obj.GetComponent<ElevatorDoor>()?.LiftDoor();
           obj.GetComponent<Drawer>()?.OpenDrawer();
-
+          obj.GetComponent<LightSwitch>()?.ToggleSwitch();
           if (obj.name == "ElevatorKey") {
             playerInventory.elevatorKey=true;
             Destroy(obj);

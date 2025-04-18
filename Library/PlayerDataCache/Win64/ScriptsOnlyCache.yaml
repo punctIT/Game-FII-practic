@@ -4,10 +4,10 @@ ScriptsOnlyBuild:
     - CamMovement
     - DetectObject
     - Door
-    - ElevatorDoor
-    - FlashlightZoom
+    - Drawer
     - Inventory
     - InventoryData
+    - LightSwitch
     - MoveCameraPositon
     - PlayerController
     Unity.ProBuilder.Editor.dll:
@@ -30,8 +30,6 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
-    - UnityEngine.EventSystems.EventSystem
-    - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
@@ -62,7 +60,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
   methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/Map.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -91,6 +89,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -98,11 +100,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1646}
     - Class: 114
-      Script: {instanceID: 2116}
+      Script: {instanceID: 2062}
     - Class: 114
       Script: {instanceID: 2288}
-    - Class: 114
-      Script: {instanceID: 2734}
     - Class: 114
       Script: {instanceID: 2958}
     - Class: 114
@@ -122,20 +122,20 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5432}
     - Class: 114
-      Script: {instanceID: 5536}
-    - Class: 114
       Script: {instanceID: 6040}
     - Class: 114
       Script: {instanceID: 6210}
     - Class: 114
-      Script: {instanceID: 6580}
-    - Class: 114
       Script: {instanceID: 6982}
     - Class: 114
       Script: {instanceID: 7700}
+    - Class: 114
+      Script: {instanceID: 7930}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -1018,6 +1018,12 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
+      Hash: ee2580d991bf19b289c1108fadd068ef
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LightSwitch
+  - hash:
+      serializedVersion: 2
       Hash: 9a174471d4db2c0c6d3ac47d2f818db1
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1090,5 +1096,5 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   platform: 19
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/teodo/Desktop/123123/FII Practic Game Dev.exe
+  - Assets/Scenes/Map.unity
+  playerPath: C:/Users/teodo/Desktop/12/FII Practic Game Dev.exe
