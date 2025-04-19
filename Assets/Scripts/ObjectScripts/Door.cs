@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Door : MonoBehaviour
@@ -15,18 +14,36 @@ public class Door : MonoBehaviour
     private Quaternion closedRotation;
     private Quaternion openRotation;
 
+    [Header("Sunete")]
+    public AudioClip doorSound; // Clipul audio
+    private AudioSource audioSource; // Sursa de sunet
+
     void Start()
     {
         closedRotation = door.rotation;
         openRotation = closedRotation * Quaternion.Euler(0, 90 * openDirection, 0);
+
+        // Găsește sau adaugă AudioSource
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
     }
 
     public void OpenDoor()
     {
         if (isLocked) return; 
+
         StopAllCoroutines(); // Evită bug-uri dacă apeși rapid
         StartCoroutine(RotateDoor(isOpen ? closedRotation : openRotation));
-        isOpen = !isOpen; // Comută starea ușii
+        isOpen = !isOpen;
+
+        // Redă sunetul
+        if (doorSound != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(doorSound);
+        }
     }
 
     IEnumerator RotateDoor(Quaternion targetRotation)
@@ -36,6 +53,6 @@ public class Door : MonoBehaviour
             door.rotation = Quaternion.RotateTowards(door.rotation, targetRotation, rotationSpeed * Time.deltaTime);
             yield return null;
         }
-        door.rotation = targetRotation; // Fixează poziția finală exactă
+        door.rotation = targetRotation;
     }
 }

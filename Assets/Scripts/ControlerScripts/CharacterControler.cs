@@ -44,6 +44,12 @@ public class PlayerController : MonoBehaviour
     private float originalHeight;
     private float crouchHeight = 1f;
     
+    [Header("Footstep Sounds")] 
+    public AudioClip footstepSound;          // Sunetul pasului
+    public float stepInterval = 0.5f;        // Interval între pași
+    private float nextStepTime = 0f;         // Timpul următorului pas
+    private AudioSource audioSource; 
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -51,6 +57,10 @@ public class PlayerController : MonoBehaviour
         originalHeight = playerCollider.height;
         rb.freezeRotation = true;
         readyToJump = true;
+
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+            audioSource = gameObject.AddComponent<AudioSource>();
     }
 
     private void Update()
@@ -58,6 +68,8 @@ public class PlayerController : MonoBehaviour
         GroundCheck();
         MyInput();
         rb.drag = grounded ? groundDrag : 0;
+
+        HandleFootsteps();
 
         if (rb.velocity.y < 0)
         {
@@ -76,6 +88,23 @@ public class PlayerController : MonoBehaviour
         StepClimb();
         SpeedControl();
     }
+
+    private void HandleFootsteps()
+{
+    // Nu reda pași dacă nu e pe sol sau viteza e foarte mică
+    Vector3 flatVelocity = new Vector3(rb.velocity.x, 0, rb.velocity.z);
+    
+    if (!grounded || flatVelocity.magnitude < 0.1f)
+        return;
+
+    if (Time.time >= nextStepTime)
+    {
+        if (footstepSound != null)
+            audioSource.PlayOneShot(footstepSound);
+
+        nextStepTime = Time.time + stepInterval;
+    }
+}
 
     private void MyInput()
     {

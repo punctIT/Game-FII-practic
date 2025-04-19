@@ -367,6 +367,7 @@
 "Assets/Scripts/ObjectScripts/Drawer.cs"
 "Assets/Scripts/ObjectScripts/ElevatorDoor.cs"
 "Assets/Scripts/ObjectScripts/Lightswitch.cs"
+"Assets/Scripts/ObjectScripts/LoadScene.cs"
 -langversion:9.0
 /deterministic
 /optimize+

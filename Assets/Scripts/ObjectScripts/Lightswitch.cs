@@ -7,14 +7,19 @@ public class LightSwitch : MonoBehaviour
     public GameObject[] neons = new GameObject[2];
 
     [Header("Sunet la comutare")]
-    public AudioClip clickSound;
-    private AudioSource audioSource;
+    public AudioClip sunetComutare;           // Clipul audio
+    private AudioSource audioSource;          // Componenta care va reda sunetul
 
     private bool estePornit = false;
 
     void Start()
     {
+        // Asigură-te că avem un AudioSource
         audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
 
         if (obiectDeControlat != null)
         {
@@ -33,9 +38,10 @@ public class LightSwitch : MonoBehaviour
             neons[1].SetActive(!estePornit);
         }
 
-        if (clickSound != null && audioSource != null)
+        // Redă sunetul la comutare
+        if (sunetComutare != null && audioSource != null)
         {
-            audioSource.PlayOneShot(clickSound);
+            audioSource.PlayOneShot(sunetComutare);
         }
     }
 }

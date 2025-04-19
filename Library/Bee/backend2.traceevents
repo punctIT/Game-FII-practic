@@ -1,317 +1,315 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1745004450236896, "dur":69, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1745004450237012, "dur":15350, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1745004450252378, "dur":147, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1745004450252582, "dur":1748, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1745004450254532, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":0, "ts":1745004450254613, "dur":79, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":0, "ts":1745004450254700, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/level0" }}
-,{ "pid":12345, "tid":0, "ts":1745004450254797, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/resources.assets" }}
-,{ "pid":12345, "tid":0, "ts":1745004450254867, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":0, "ts":1745004450254928, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":0, "ts":1745004450255091, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":0, "ts":1745004450255380, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1745004450255636, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1745004450256704, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1745004450256975, "dur":193, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1745004450257179, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1745004450257309, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1745004450257390, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1745004450257453, "dur":84, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1745004450257628, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1745004450257791, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1745004450257938, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1745004450258279, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1745004450258362, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1745004450258427, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1745004450258490, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1745004450258746, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":0, "ts":1745004450259230, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":0, "ts":1745004450259350, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":0, "ts":1745004450259591, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":0, "ts":1745004450259825, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":0, "ts":1745004450259914, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":0, "ts":1745004450260066, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":0, "ts":1745004450254427, "dur":6705, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1745004450261135, "dur":600763, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1745004450861899, "dur":369, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1745004450862268, "dur":551, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1745004450862826, "dur":108, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1745004450863183, "dur":4577, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1745004450253678, "dur":7480, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1745004450261174, "dur":7840, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1745004450280651, "dur":1472, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":1, "ts":1745004450282130, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1745004450282272, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1745004450282384, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1745004450282918, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\teodo\\Desktop\\FII Practic\\FII Practic Game Dev\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1745004450283035, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\teodo\\Desktop\\FII Practic\\FII Practic Game Dev\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.Stl.dll" }}
-,{ "pid":12345, "tid":1, "ts":1745004450283151, "dur":557, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\teodo\\Desktop\\FII Practic\\FII Practic Game Dev\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.dll" }}
-,{ "pid":12345, "tid":1, "ts":1745004450283712, "dur":827, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\teodo\\Desktop\\FII Practic\\FII Practic Game Dev\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1745004450284542, "dur":408, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\teodo\\Desktop\\FII Practic\\FII Practic Game Dev\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1745004450284953, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\teodo\\Desktop\\FII Practic\\FII Practic Game Dev\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.Csg.dll" }}
-,{ "pid":12345, "tid":1, "ts":1745004450285110, "dur":606, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\teodo\\Desktop\\FII Practic\\FII Practic Game Dev\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1745004450285718, "dur":287, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\teodo\\Desktop\\FII Practic\\FII Practic Game Dev\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1745004450286007, "dur":146, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\teodo\\Desktop\\FII Practic\\FII Practic Game Dev\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.Poly2Tri.dll" }}
-,{ "pid":12345, "tid":1, "ts":1745004450286156, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\teodo\\Desktop\\FII Practic\\FII Practic Game Dev\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.KdTree.dll" }}
-,{ "pid":12345, "tid":1, "ts":1745004450286279, "dur":547, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\teodo\\Desktop\\FII Practic\\FII Practic Game Dev\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1745004450286828, "dur":127, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\teodo\\Desktop\\FII Practic\\FII Practic Game Dev\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1745004450287019, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playereaef372f-inputdata.json" }}
-,{ "pid":12345, "tid":1, "ts":1745004450282127, "dur":5213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1745004450287939, "dur":94, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1745004450289037, "dur":560393, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1745004450859985, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1745004450859984, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1745004450860152, "dur":1634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1745004450254429, "dur":8353, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1745004450262783, "dur":6272, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1745004450269057, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":2, "ts":1745004450272468, "dur":4796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":2, "ts":1745004450277335, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1745004450278770, "dur":16087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1745004450294977, "dur":11609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":2, "ts":1745004450306720, "dur":12492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":2, "ts":1745004450319355, "dur":87, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1745004450319447, "dur":10417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1745004450329965, "dur":9887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1745004450339970, "dur":10585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1745004450350702, "dur":10673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1745004450361489, "dur":152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":2, "ts":1745004450361485, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":2, "ts":1745004450361665, "dur":26660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":2, "ts":1745004450388373, "dur":473531, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1745004450253878, "dur":7322, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1745004450261779, "dur":925, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Stevedore.Program.exe" }}
-,{ "pid":12345, "tid":3, "ts":1745004450261211, "dur":2088, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1745004450263300, "dur":5834, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1745004450269135, "dur":879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1745004450274579, "dur":3182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1745004450277835, "dur":223, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1745004450277831, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1745004450295317, "dur":155, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1745004450280280, "dur":15206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1745004450295593, "dur":12026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":3, "ts":1745004450319401, "dur":91, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1745004450307720, "dur":11824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/Unity.ProBuilder.Csg.dll" }}
-,{ "pid":12345, "tid":3, "ts":1745004450319624, "dur":131, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1745004450319818, "dur":10698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1745004450330614, "dur":10286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1745004450340999, "dur":11467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1745004450352582, "dur":10233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1745004450362894, "dur":10953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":3, "ts":1745004450384183, "dur":74, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1745004450373969, "dur":10306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/level0" }}
-,{ "pid":12345, "tid":3, "ts":1745004450384367, "dur":477505, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1745004450254624, "dur":8200, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1745004450262825, "dur":6245, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1745004450269071, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":4, "ts":1745004450273314, "dur":5082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":4, "ts":1745004450278488, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1745004450283304, "dur":9356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1745004450292776, "dur":9336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":4, "ts":1745004450302234, "dur":13725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1745004450316119, "dur":10227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1745004450326471, "dur":9785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1745004450336363, "dur":10720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1745004450358228, "dur":65, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1745004450347186, "dur":11125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1745004450358401, "dur":16389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1745004450374862, "dur":487034, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1745004450254009, "dur":7249, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1745004450261270, "dur":1405, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1745004450262676, "dur":6352, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1745004450269065, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1745004450271376, "dur":5357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/app.info" }}
-,{ "pid":12345, "tid":5, "ts":1745004450276741, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
-,{ "pid":12345, "tid":5, "ts":1745004450276737, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1745004450278783, "dur":15160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1745004450294044, "dur":12205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":5, "ts":1745004450306350, "dur":12140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
-,{ "pid":12345, "tid":5, "ts":1745004450318595, "dur":11027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1745004450329756, "dur":9654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1745004450339521, "dur":10059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1745004450349679, "dur":10704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1745004450360483, "dur":14923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1745004450375488, "dur":486390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1745004450254092, "dur":7189, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1745004450261297, "dur":1759, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1745004450263057, "dur":6304, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1745004450269363, "dur":494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1745004450281573, "dur":5083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1745004450286769, "dur":9705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":6, "ts":1745004450296606, "dur":11912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1745004450308619, "dur":12057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/Unity.ProBuilder.Stl.dll" }}
-,{ "pid":12345, "tid":6, "ts":1745004450320807, "dur":10610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1745004450331524, "dur":10643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1745004450353509, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1745004450342268, "dur":11376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1745004450353759, "dur":64, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1745004450353828, "dur":14935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1745004450368890, "dur":3422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":6, "ts":1745004450372427, "dur":10492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/level0.resS" }}
-,{ "pid":12345, "tid":6, "ts":1745004450383004, "dur":479382, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1745004450254260, "dur":7581, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1745004450261869, "dur":1312, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1745004450263182, "dur":6373, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1745004450269557, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1745004450280260, "dur":3580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1745004450284323, "dur":12579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":7, "ts":1745004450297139, "dur":11448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":7, "ts":1745004450308740, "dur":11303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":7, "ts":1745004450320174, "dur":10875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1745004450331327, "dur":9767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1745004450341201, "dur":11209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1745004450352524, "dur":14910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1745004450367507, "dur":8255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":7, "ts":1745004450375839, "dur":486579, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1745004450254343, "dur":7643, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1745004450261999, "dur":1226, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1745004450263226, "dur":5821, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1745004450269072, "dur":635, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":8, "ts":1745004450269050, "dur":659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":8, "ts":1745004450279387, "dur":3697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":8, "ts":1745004450284233, "dur":9012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":8, "ts":1745004450293392, "dur":10074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":8, "ts":1745004450303542, "dur":13267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":8, "ts":1745004450316901, "dur":10702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1745004450327718, "dur":9959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1745004450337744, "dur":10769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1745004450348607, "dur":10822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1745004450359498, "dur":15227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1745004450374806, "dur":9361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":8, "ts":1745004450384245, "dur":478003, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1745004450254908, "dur":8246, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1745004450263154, "dur":6210, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1745004450269384, "dur":195, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":9, "ts":1745004450269365, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":9, "ts":1745004450275586, "dur":3939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":9, "ts":1745004450279635, "dur":168, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":9, "ts":1745004450279632, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":9, "ts":1745004450280324, "dur":13399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":9, "ts":1745004450293916, "dur":9502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":9, "ts":1745004450303525, "dur":10802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":9, "ts":1745004450314416, "dur":10384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1745004450324950, "dur":9105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1745004450334203, "dur":10588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1745004450344907, "dur":10449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1745004450355461, "dur":18548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1745004450374179, "dur":10507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":9, "ts":1745004450384732, "dur":477358, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1745004450253759, "dur":7416, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1745004450261200, "dur":650, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Options.dll" }}
-,{ "pid":12345, "tid":10, "ts":1745004450261927, "dur":764, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll" }}
-,{ "pid":12345, "tid":10, "ts":1745004450261200, "dur":2312, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1745004450263513, "dur":5832, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1745004450269371, "dur":196, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":10, "ts":1745004450269349, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":10, "ts":1745004450275357, "dur":3883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":10, "ts":1745004450279331, "dur":220, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":10, "ts":1745004450279328, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":10, "ts":1745004450280212, "dur":4571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":10, "ts":1745004450284901, "dur":10427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":10, "ts":1745004450295428, "dur":251, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1745004450295683, "dur":12172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":10, "ts":1745004450319622, "dur":93, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1745004450307970, "dur":11913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":10, "ts":1745004450320001, "dur":10470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1745004450330562, "dur":9956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1745004450340610, "dur":10575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1745004450351288, "dur":11264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1745004450362664, "dur":20537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":10, "ts":1745004450383263, "dur":478667, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1745004450254487, "dur":8320, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1745004450262807, "dur":6236, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1745004450269077, "dur":224, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":11, "ts":1745004450269044, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":11, "ts":1745004450295017, "dur":179, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1745004450286401, "dur":8843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":11, "ts":1745004450295397, "dur":232, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1745004450295633, "dur":11650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":11, "ts":1745004450307396, "dur":11905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":11, "ts":1745004450319397, "dur":55, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1745004450319456, "dur":10668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1745004450330218, "dur":9301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1745004450339667, "dur":10344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1745004450350113, "dur":10719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1745004450360979, "dur":14570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1745004450375672, "dur":486186, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1745004450253927, "dur":7296, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1745004450261241, "dur":1532, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1745004450262773, "dur":6324, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1745004450269151, "dur":866, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":12, "ts":1745004450269120, "dur":899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":12, "ts":1745004450277724, "dur":106, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1745004450274019, "dur":3828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":12, "ts":1745004450277957, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":12, "ts":1745004450280184, "dur":15983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":12, "ts":1745004450296414, "dur":12073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":12, "ts":1745004450308597, "dur":11774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/Unity.ProBuilder.dll" }}
-,{ "pid":12345, "tid":12, "ts":1745004450320484, "dur":10533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1745004450331199, "dur":10305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1745004450341701, "dur":11608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1745004450353490, "dur":14273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1745004450367877, "dur":10298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":12, "ts":1745004450378250, "dur":483914, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1745004450254689, "dur":8151, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1745004450262841, "dur":6278, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1745004450269151, "dur":845, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":13, "ts":1745004450269122, "dur":875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":13, "ts":1745004450285091, "dur":10761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":13, "ts":1745004450296006, "dur":11857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":13, "ts":1745004450308035, "dur":11555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":13, "ts":1745004450319782, "dur":9969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1745004450329858, "dur":9998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1745004450339993, "dur":10661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1745004450350773, "dur":11061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1745004450361938, "dur":9993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":13, "ts":1745004450372029, "dur":11045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/resources.assets" }}
-,{ "pid":12345, "tid":13, "ts":1745004450383153, "dur":478900, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1745004450254845, "dur":8288, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1745004450263134, "dur":6247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1745004450269382, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":14, "ts":1745004450275672, "dur":6241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":14, "ts":1745004450281986, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":14, "ts":1745004450283391, "dur":7100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":14, "ts":1745004450290619, "dur":7211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":14, "ts":1745004450297971, "dur":12279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":14, "ts":1745004450310365, "dur":11969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":14, "ts":1745004450322438, "dur":10373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1745004450332919, "dur":10720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1745004450343746, "dur":10937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1745004450354912, "dur":15052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1745004450370103, "dur":12904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":14, "ts":1745004450383077, "dur":479226, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1745004450254777, "dur":8318, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1745004450263096, "dur":6231, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1745004450269346, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":15, "ts":1745004450276971, "dur":2727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":15, "ts":1745004450279782, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":15, "ts":1745004450279781, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/FII Practic Game Dev.exe" }}
-,{ "pid":12345, "tid":15, "ts":1745004450284266, "dur":66, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1745004450279888, "dur":4487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev.exe" }}
-,{ "pid":12345, "tid":15, "ts":1745004450284814, "dur":12948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":15, "ts":1745004450297849, "dur":12860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":15, "ts":1745004450310801, "dur":11964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1745004450322878, "dur":10587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1745004450333565, "dur":10855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1745004450344523, "dur":10602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1745004450355327, "dur":19025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1745004450384148, "dur":85, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1745004450374490, "dur":9761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":15, "ts":1745004450384347, "dur":477846, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1745004450254400, "dur":7688, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1745004450262101, "dur":1023, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1745004450263124, "dur":5989, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1745004450269115, "dur":872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":16, "ts":1745004450283778, "dur":10717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":16, "ts":1745004450304754, "dur":110, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1745004450294630, "dur":10256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":16, "ts":1745004450305093, "dur":12256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
-,{ "pid":12345, "tid":16, "ts":1745004450317413, "dur":10312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1745004450327831, "dur":11073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1745004450339055, "dur":10498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1745004450349672, "dur":10628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1745004450360378, "dur":15014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/12/FII Practic Game Dev_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1745004450375472, "dur":487054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1745004450871943, "dur":1953, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1745081459359792, "dur":67, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1745081459359907, "dur":14256, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1745081459374171, "dur":143, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1745081459374360, "dur":1714, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1745081459376296, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":0, "ts":1745081459376374, "dur":80, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1745081459376500, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/level0.resS" }}
+,{ "pid":12345, "tid":0, "ts":1745081459376593, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/resources.assets" }}
+,{ "pid":12345, "tid":0, "ts":1745081459376732, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":0, "ts":1745081459376899, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1745081459377011, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":0, "ts":1745081459377331, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1745081459377796, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1745081459378985, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1745081459379230, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1745081459380886, "dur":398, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":0, "ts":1745081459381292, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":0, "ts":1745081459381414, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":0, "ts":1745081459381554, "dur":134, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/app.info" }}
+,{ "pid":12345, "tid":0, "ts":1745081459381728, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":0, "ts":1745081459381888, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":0, "ts":1745081459381985, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1745081459376193, "dur":6607, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1745081459382802, "dur":588570, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1745081459971373, "dur":443, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1745081459971816, "dur":209, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1745081459972372, "dur":3439, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1745081459375441, "dur":7386, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1745081459382841, "dur":8836, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1745081459392279, "dur":749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1745081459394029, "dur":876, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1745081459394911, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1745081459395039, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1745081459395143, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1745081459395715, "dur":167, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\teodo\\Desktop\\FII Practic\\FII Practic Game Dev\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745081459395885, "dur":151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\teodo\\Desktop\\FII Practic\\FII Practic Game Dev\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745081459396038, "dur":701, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\teodo\\Desktop\\FII Practic\\FII Practic Game Dev\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745081459396742, "dur":2134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\teodo\\Desktop\\FII Practic\\FII Practic Game Dev\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745081459398879, "dur":1732, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\teodo\\Desktop\\FII Practic\\FII Practic Game Dev\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745081459400613, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\teodo\\Desktop\\FII Practic\\FII Practic Game Dev\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745081459400740, "dur":681, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\teodo\\Desktop\\FII Practic\\FII Practic Game Dev\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745081459401424, "dur":452, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\teodo\\Desktop\\FII Practic\\FII Practic Game Dev\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745081459401879, "dur":169, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\teodo\\Desktop\\FII Practic\\FII Practic Game Dev\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745081459402051, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\teodo\\Desktop\\FII Practic\\FII Practic Game Dev\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745081459402183, "dur":630, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\teodo\\Desktop\\FII Practic\\FII Practic Game Dev\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745081459402816, "dur":186, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\teodo\\Desktop\\FII Practic\\FII Practic Game Dev\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745081459403135, "dur":290, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player3e29dffa-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1745081459394908, "dur":8741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1745081459404702, "dur":119, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1745081459405739, "dur":558273, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1745081459969448, "dur":147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1745081459969446, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1745081459969631, "dur":1629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1745081459375446, "dur":7398, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745081459382902, "dur":1516, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745081459384418, "dur":8087, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745081459392506, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1745081459418488, "dur":4249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1745081459422895, "dur":58, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745081459422961, "dur":9977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1745081459442153, "dur":190, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745081459433071, "dur":9308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1745081459442537, "dur":11340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":2, "ts":1745081459454025, "dur":9932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1745081459464120, "dur":9332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1745081459473604, "dur":9267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1745081459482983, "dur":9382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1745081459492548, "dur":10302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1745081459502968, "dur":468399, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745081459375538, "dur":7322, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745081459382861, "dur":1364, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.VisualStudioSolution.dll" }}
+,{ "pid":12345, "tid":3, "ts":1745081459382861, "dur":2389, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745081459385250, "dur":7237, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745081459392504, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1745081459415290, "dur":8050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1745081459423461, "dur":10360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1745081459433921, "dur":10385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1745081459444399, "dur":55, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745081459444459, "dur":9204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1745081459453780, "dur":10878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1745081459464764, "dur":9208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1745081459474114, "dur":9159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1745081459483367, "dur":9400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1745081459492902, "dur":13089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1745081459506073, "dur":465611, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1745081459375618, "dur":8598, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1745081459384216, "dur":7472, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1745081459391714, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1745081459393344, "dur":110, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1745081459394307, "dur":7966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1745081459402280, "dur":464, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":4, "ts":1745081459402277, "dur":469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1745081459403308, "dur":3862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1745081459407247, "dur":180, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1745081459407243, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1745081459407452, "dur":6453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1745081459413984, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1745081459414578, "dur":4906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1745081459419623, "dur":9260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1745081459428968, "dur":12029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1745081459441160, "dur":53, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1745081459441218, "dur":9320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":4, "ts":1745081459450642, "dur":58, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1745081459459418, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1745081459450704, "dur":8927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1745081459459753, "dur":10167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1745081459470053, "dur":9850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1745081459479991, "dur":9188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1745081459489289, "dur":8679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1745081459498061, "dur":9295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1745081459507459, "dur":464196, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745081459375686, "dur":8522, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745081459384209, "dur":7496, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745081459391727, "dur":211, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1745081459391706, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1745081459395829, "dur":6327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1745081459402285, "dur":1943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1745081459404865, "dur":3310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1745081459408281, "dur":509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1745081459413744, "dur":2826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1745081459428513, "dur":174, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745081459418412, "dur":10320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1745081459428843, "dur":10174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1745081459439116, "dur":9580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":5, "ts":1745081459448839, "dur":9624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1745081459458569, "dur":10658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1745081459469334, "dur":9093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1745081459478560, "dur":9494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1745081459488189, "dur":10683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1745081459499124, "dur":8737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1745081459507943, "dur":463682, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1745081459375764, "dur":8400, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1745081459384164, "dur":7839, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1745081459392021, "dur":789, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":6, "ts":1745081459392004, "dur":807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1745081459430974, "dur":653, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1745081459425138, "dur":6712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1745081459432049, "dur":12390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1745081459444574, "dur":10336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1745081459455042, "dur":10865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1745081459474551, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1745081459466036, "dur":8584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1745081459474751, "dur":8846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1745081459483778, "dur":11434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1745081459495383, "dur":8580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1745081459504047, "dur":467678, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1745081459375828, "dur":8327, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1745081459384156, "dur":7848, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1745081459392005, "dur":797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1745081459418212, "dur":9976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1745081459428643, "dur":295, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1745081459428943, "dur":11256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1745081459440332, "dur":9636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1745081459450164, "dur":10325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1745081459460573, "dur":9470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1745081459470141, "dur":8335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1745081459478584, "dur":9083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1745081459487826, "dur":10327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1745081459498298, "dur":9908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1745081459508288, "dur":463170, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1745081459375907, "dur":8240, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1745081459384148, "dur":1165, "ph":"X", "name": "File",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1745081459384148, "dur":1828, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1745081459385976, "dur":6318, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1745081459392326, "dur":309, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":8, "ts":1745081459392309, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1745081459410838, "dur":9660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1745081459420653, "dur":11678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1745081459432456, "dur":12394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1745081459444992, "dur":10505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1745081459455589, "dur":10453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1745081459466135, "dur":9317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1745081459475513, "dur":9222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1745081459484831, "dur":11612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1745081459497098, "dur":3703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1745081459501039, "dur":7206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1745081459508307, "dur":463136, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1745081459375966, "dur":8172, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1745081459384139, "dur":1169, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1745081459384138, "dur":1904, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1745081459386042, "dur":6266, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1745081459392320, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1745081459403656, "dur":3881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1745081459407629, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1745081459407866, "dur":16813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1745081459424793, "dur":11996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1745081459437136, "dur":9806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1745081459447088, "dur":10005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1745081459457293, "dur":10125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1745081459467542, "dur":9186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1745081459476908, "dur":8990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1745081459486003, "dur":11429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1745081459507127, "dur":78, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1745081459497556, "dur":9671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1745081459507334, "dur":464260, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1745081459376055, "dur":8145, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1745081459384201, "dur":7762, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1745081459391964, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1745081459400419, "dur":8997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1745081459409537, "dur":159, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745081459409534, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745081459409709, "dur":50, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1745081459409860, "dur":19103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745081459429044, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745081459429240, "dur":50, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1745081459429294, "dur":11609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745081459441046, "dur":10146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745081459451352, "dur":10688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745081459462253, "dur":9189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745081459471545, "dur":10033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745081459481686, "dur":9490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745081459491281, "dur":7063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1745081459498454, "dur":10099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1745081459508626, "dur":462774, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1745081459376108, "dur":8084, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1745081459384193, "dur":7945, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1745081459392158, "dur":685, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1745081459392139, "dur":705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1745081459425885, "dur":5132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1745081459431107, "dur":12064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1745081459443316, "dur":98, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1745081459443419, "dur":10197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":11, "ts":1745081459453748, "dur":9850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1745081459463691, "dur":9138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1745081459472929, "dur":9607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1745081459482650, "dur":10011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1745081459492759, "dur":15560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1745081459508387, "dur":463034, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1745081459376482, "dur":7514, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1745081459383997, "dur":1367, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1745081459385365, "dur":6910, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1745081459392291, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1745081459406064, "dur":557, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1745081459416679, "dur":4011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1745081459420840, "dur":7715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1745081459428751, "dur":8085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1745081459436950, "dur":10862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1745081459447945, "dur":9698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1745081459457756, "dur":10086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1745081459467939, "dur":8966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1745081459477042, "dur":9610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1745081459486741, "dur":11066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1745081459497902, "dur":9931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/level1" }}
+,{ "pid":12345, "tid":12, "ts":1745081459507974, "dur":463781, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1745081459376321, "dur":7862, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1745081459384184, "dur":8037, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1745081459392222, "dur":776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1745081459427517, "dur":4913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1745081459432526, "dur":9458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":13, "ts":1745081459442094, "dur":9860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":13, "ts":1745081459452047, "dur":10456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1745081459462599, "dur":9355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1745081459472017, "dur":9526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1745081459481646, "dur":9811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1745081459491578, "dur":11256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":13, "ts":1745081459503012, "dur":468349, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1745081459376560, "dur":6338, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1745081459383075, "dur":856, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":14, "ts":1745081459382899, "dur":2095, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1745081459384995, "dur":6716, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1745081459391713, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":14, "ts":1745081459402130, "dur":8579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":14, "ts":1745081459410780, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":14, "ts":1745081459410779, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/FII Practic Game Dev.exe" }}
+,{ "pid":12345, "tid":14, "ts":1745081459410848, "dur":56, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1745081459410907, "dur":3434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev.exe" }}
+,{ "pid":12345, "tid":14, "ts":1745081459416282, "dur":14853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1745081459431290, "dur":10699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1745081459442125, "dur":175, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1745081459442306, "dur":11773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1745081459454197, "dur":10697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1745081459464955, "dur":9271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1745081459474330, "dur":9654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1745081459484088, "dur":11537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1745081459495755, "dur":9713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":14, "ts":1745081459505575, "dur":466131, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1745081459376402, "dur":6578, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1745081459383057, "dur":1185, "ph":"X", "name": "File",  "args": { "detail":"C:\\Users\\teodo\\Desktop\\FII Practic\\FII Practic Game Dev\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":15, "ts":1745081459382980, "dur":2265, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1745081459385246, "dur":6446, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1745081459391751, "dur":124, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1745081459391700, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1745081459396173, "dur":12432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1745081459408829, "dur":268, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":15, "ts":1745081459408825, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":15, "ts":1745081459409740, "dur":18764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":15, "ts":1745081459428707, "dur":11286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":15, "ts":1745081459450621, "dur":68, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1745081459440085, "dur":10635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":15, "ts":1745081459450913, "dur":10571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1745081459461592, "dur":9555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1745081459471257, "dur":9523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1745081459480958, "dur":9174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1745081459490204, "dur":158, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1745081459490201, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1745081459490391, "dur":30491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1745081459520944, "dur":450432, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1745081459376168, "dur":6911, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1745081459384068, "dur":944, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1745081459383080, "dur":2306, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1745081459385386, "dur":7023, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1745081459392447, "dur":227, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.60f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1745081459392428, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1745081459412802, "dur":20523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1745081459433597, "dur":12071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":16, "ts":1745081459445844, "dur":10436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1745081459456378, "dur":10477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1745081459466973, "dur":9133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1745081459476290, "dur":9083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1745081459485478, "dur":11025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1745081459496677, "dur":10898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/teodo/Desktop/jos/FII Practic Game Dev_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1745081459507653, "dur":463921, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1745081459980839, "dur":1550, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
