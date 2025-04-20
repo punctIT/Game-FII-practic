@@ -523,6 +523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverSound: {fileID: 8300000, guid: 462a7403403c8d74bb32fe26c80ce79f, type: 3}
+  audioSource: {fileID: 2133904749}
 --- !u!1 &1113937613
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,17 +1,20 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ButtonHoverSound
     - CamMovement
     - DetectObject
     - Door
     - Drawer
     - ElevatorDoor
+    - FirstMenu
     - FlashlightZoom
     - Inventory
     - InventoryData
     - LightSwitch
     - LoadSceneScript
     - MoveCameraPositon
+    - PauseMenu
     - PlayerController
     Unity.ProBuilder.Editor.dll:
     - UnityEditor.ProBuilder.ProBuilderEditor
@@ -35,6 +38,7 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
@@ -55,16 +59,107 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Style
     - TMPro.VertexGradient
     UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
     - UnityEngine.TextCore.GlyphMetrics
     - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
-  methodsToPreserve: []
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.SpriteState
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: FirstMenu
+    methodName: LoadScene
+  - assembly: Assembly-CSharp
+    fullTypeName: FirstMenu
+    methodName: LoadScene
+  - assembly: Assembly-CSharp
+    fullTypeName: FirstMenu
+    methodName: LoadScene
+  - assembly: Assembly-CSharp
+    fullTypeName: FirstMenu
+    methodName: LoadScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: Resume
   sceneClasses:
+    Assets/Scenes/Act0.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1646}
+    - Class: 114
+      Script: {instanceID: 2288}
+    - Class: 114
+      Script: {instanceID: 2734}
+    - Class: 114
+      Script: {instanceID: 2958}
+    - Class: 114
+      Script: {instanceID: 3290}
+    - Class: 114
+      Script: {instanceID: 4362}
+    - Class: 114
+      Script: {instanceID: 4638}
+    - Class: 114
+      Script: {instanceID: 5420}
+    - Class: 114
+      Script: {instanceID: 6042}
+    - Class: 114
+      Script: {instanceID: 6212}
+    - Class: 114
+      Script: {instanceID: 6582}
+    - Class: 114
+      Script: {instanceID: 7172}
+    - Class: 114
+      Script: {instanceID: 7988}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/Act1.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -84,13 +179,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 49
-      Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
     - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -102,6 +197,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -111,41 +210,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2062}
     - Class: 114
-      Script: {instanceID: 2288}
-    - Class: 114
       Script: {instanceID: 2734}
     - Class: 114
       Script: {instanceID: 2958}
+    - Class: 114
+      Script: {instanceID: 3290}
     - Class: 114
       Script: {instanceID: 3464}
     - Class: 114
       Script: {instanceID: 3594}
     - Class: 114
-      Script: {instanceID: 3996}
+      Script: {instanceID: 3930}
     - Class: 114
-      Script: {instanceID: 4360}
+      Script: {instanceID: 3998}
     - Class: 114
-      Script: {instanceID: 4636}
+      Script: {instanceID: 5032}
     - Class: 114
-      Script: {instanceID: 5030}
+      Script: {instanceID: 5420}
     - Class: 114
-      Script: {instanceID: 5418}
+      Script: {instanceID: 5434}
     - Class: 114
-      Script: {instanceID: 5432}
+      Script: {instanceID: 6042}
     - Class: 114
-      Script: {instanceID: 6040}
+      Script: {instanceID: 6212}
     - Class: 114
-      Script: {instanceID: 6210}
+      Script: {instanceID: 6582}
     - Class: 114
-      Script: {instanceID: 6580}
+      Script: {instanceID: 6984}
     - Class: 114
-      Script: {instanceID: 6982}
+      Script: {instanceID: 7172}
     - Class: 114
-      Script: {instanceID: 7700}
+      Script: {instanceID: 7704}
     - Class: 114
-      Script: {instanceID: 7930}
+      Script: {instanceID: 7934}
     - Class: 114
-      Script: {instanceID: 46872}
+      Script: {instanceID: 8398}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -157,6 +256,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -210,25 +311,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3594}
     - Class: 114
-      Script: {instanceID: 3996}
+      Script: {instanceID: 3998}
     - Class: 114
-      Script: {instanceID: 5030}
+      Script: {instanceID: 5032}
     - Class: 114
-      Script: {instanceID: 5418}
+      Script: {instanceID: 5420}
     - Class: 114
-      Script: {instanceID: 5432}
+      Script: {instanceID: 5434}
     - Class: 114
-      Script: {instanceID: 5536}
+      Script: {instanceID: 5538}
     - Class: 114
-      Script: {instanceID: 6040}
+      Script: {instanceID: 6042}
     - Class: 114
-      Script: {instanceID: 6210}
+      Script: {instanceID: 6212}
     - Class: 114
-      Script: {instanceID: 6580}
+      Script: {instanceID: 6582}
     - Class: 114
-      Script: {instanceID: 6982}
+      Script: {instanceID: 6984}
     - Class: 114
-      Script: {instanceID: 7700}
+      Script: {instanceID: 7704}
+    - Class: 114
+      Script: {instanceID: 8398}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -596,6 +699,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Flow
     namespaceName: Unity.VisualScripting
     className: ScriptGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0df12ea2ff2225679ecc7bd98deba40a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LoadSceneScript
   - hash:
       serializedVersion: 2
       Hash: fb79e95da8891fc7ac6c36ca6967af23
@@ -1012,6 +1121,12 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionExitMessageListener
   - hash:
       serializedVersion: 2
+      Hash: c76b2d8c07305905e44d918e51232698
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ButtonHoverSound
+  - hash:
+      serializedVersion: 2
       Hash: d2ecd94550edf1b56aff07b1f4e41c57
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1120,6 +1235,12 @@ ScriptsOnlyBuild:
     className: LightSwitch
   - hash:
       serializedVersion: 2
+      Hash: f62f3d96bd32ee91ace783e3c357443c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FirstMenu
+  - hash:
+      serializedVersion: 2
       Hash: 9a174471d4db2c0c6d3ac47d2f818db1
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1156,6 +1277,12 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: a6a1dbcee9c42980421886a1befd08be
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PauseMenu
+  - hash:
+      serializedVersion: 2
       Hash: ff76cf6cf52b4db7b95af6ffadca9288
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -1190,14 +1317,9 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 0df12ea2ff2225679ecc7bd98deba40a
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: LoadSceneScript
   platform: 19
   scenePathNames:
+  - Assets/Scenes/Act0.unity
   - Assets/Scenes/Act1.unity
   - Assets/Scenes/Act2.unity
-  playerPath: C:/Users/teodo/Desktop/jos/FII Practic Game Dev.exe
+  playerPath: C:/Users/teodo/Desktop/joc/FII Practic Game Dev.exe

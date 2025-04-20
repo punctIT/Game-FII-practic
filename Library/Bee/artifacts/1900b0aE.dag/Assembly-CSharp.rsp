@@ -364,6 +364,7 @@
 "Assets/Scripts/ControlerScripts/InventoryManager/InventoryData.cs"
 "Assets/Scripts/ControlerScripts/MoveCameraPositon.cs"
 "Assets/Scripts/Meniu/ButtonHoverSound.cs"
+"Assets/Scripts/Meniu/FirstMenu.cs"
 "Assets/Scripts/Meniu/PauseMeniu.cs"
 "Assets/Scripts/ObjectScripts/Door.cs"
 "Assets/Scripts/ObjectScripts/Drawer.cs"
