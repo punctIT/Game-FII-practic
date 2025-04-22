@@ -16,8 +16,13 @@ ScriptsOnlyBuild:
     - MoveCameraPositon
     - PauseMenu
     - PlayerController
+    - TextFlickerWithSound
     Unity.ProBuilder.Editor.dll:
+    - UnityEditor.ProBuilder.PositionToolContext
     - UnityEditor.ProBuilder.ProBuilderEditor
+    - UnityEditor.ProBuilder.ProbuilderMoveTool
+    - UnityEditor.ProBuilder.ProbuilderRotateTool
+    - UnityEditor.ProBuilder.ProbuilderScaleTool
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
@@ -89,6 +94,15 @@ ScriptsOnlyBuild:
     methodName: LoadScene
   - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
+    methodName: LoadMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
     methodName: Resume
   sceneClasses:
     Assets/Scenes/Act0.unity:
@@ -144,6 +158,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7172}
     - Class: 114
       Script: {instanceID: 7988}
+    - Class: 114
+      Script: {instanceID: 38194}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -194,8 +210,6 @@ ScriptsOnlyBuild:
     - Class: 83
       Script: {instanceID: 0}
     - Class: 84
-      Script: {instanceID: 0}
-    - Class: 89
       Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
@@ -307,10 +321,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2958}
     - Class: 114
-      Script: {instanceID: 3464}
-    - Class: 114
-      Script: {instanceID: 3594}
-    - Class: 114
       Script: {instanceID: 3998}
     - Class: 114
       Script: {instanceID: 5032}
@@ -330,13 +340,9 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6984}
     - Class: 114
       Script: {instanceID: 7704}
-    - Class: 114
-      Script: {instanceID: 8398}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
-      Script: {instanceID: 0}
-    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -1317,6 +1323,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 431272c332411b336620d38a93a3ccd0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TextFlickerWithSound
   platform: 19
   scenePathNames:
   - Assets/Scenes/Act0.unity

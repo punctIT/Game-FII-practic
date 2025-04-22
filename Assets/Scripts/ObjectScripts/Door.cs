@@ -4,26 +4,25 @@ using UnityEngine;
 public class Door : MonoBehaviour
 {
     private bool isOpen = false;
-    public Transform door; // Asignează manual obiectul care se rotește
-    public float rotationSpeed = 90f; // Grade pe secundă
-    public bool isLocked = false; // Ușa este blocată sau nu
+    public Transform door;
+    public float rotationSpeed = 90f;
+    public bool isLocked = false;
 
     [Tooltip("1 = spre exterior, -1 = spre interior")]
-    public int openDirection = 1; // 1 sau -1, definește direcția de deschidere
+    public int openDirection = 1;
 
     private Quaternion closedRotation;
     private Quaternion openRotation;
 
     [Header("Sunete")]
-    public AudioClip doorSound; // Clipul audio
-    private AudioSource audioSource; // Sursa de sunet
+    public AudioClip doorSound;
+    private AudioSource audioSource;
 
     void Start()
     {
         closedRotation = door.rotation;
         openRotation = closedRotation * Quaternion.Euler(0, 90 * openDirection, 0);
 
-        // Găsește sau adaugă AudioSource
         audioSource = GetComponent<AudioSource>();
         if (audioSource == null)
         {
@@ -33,13 +32,12 @@ public class Door : MonoBehaviour
 
     public void OpenDoor()
     {
-        if (isLocked) return; 
+        if (isLocked) return;
 
-        StopAllCoroutines(); // Evită bug-uri dacă apeși rapid
+        StopAllCoroutines();
         StartCoroutine(RotateDoor(isOpen ? closedRotation : openRotation));
         isOpen = !isOpen;
 
-        // Redă sunetul
         if (doorSound != null && audioSource != null)
         {
             audioSource.PlayOneShot(doorSound);
@@ -48,11 +46,19 @@ public class Door : MonoBehaviour
 
     IEnumerator RotateDoor(Quaternion targetRotation)
     {
+        Collider col = GetComponent<Collider>();
+        if (col != null)
+            col.enabled = false;
+
         while (Quaternion.Angle(door.rotation, targetRotation) > 0.1f)
         {
             door.rotation = Quaternion.RotateTowards(door.rotation, targetRotation, rotationSpeed * Time.deltaTime);
             yield return null;
         }
+
         door.rotation = targetRotation;
+
+        if (col != null)
+            col.enabled = true;
     }
 }

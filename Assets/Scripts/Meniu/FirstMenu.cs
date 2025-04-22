@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -21,7 +22,9 @@ public class FirstMenu : MonoBehaviour
             SceneManager.LoadScene(sceneToLoad);
         }
     }
-
+    public void exitGame(){
+        Application.Quit();
+    }
     private IEnumerator LoadSceneAfterSound()
     {
         yield return new WaitForSeconds(buttonClickSound.length);

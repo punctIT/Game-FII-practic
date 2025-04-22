@@ -366,6 +366,7 @@
 "Assets/Scripts/Meniu/ButtonHoverSound.cs"
 "Assets/Scripts/Meniu/FirstMenu.cs"
 "Assets/Scripts/Meniu/PauseMeniu.cs"
+"Assets/Scripts/Meniu/TittleDisapera.cs"
 "Assets/Scripts/ObjectScripts/Door.cs"
 "Assets/Scripts/ObjectScripts/Drawer.cs"
 "Assets/Scripts/ObjectScripts/ElevatorDoor.cs"

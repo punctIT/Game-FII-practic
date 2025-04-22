@@ -39,8 +39,8 @@ public class PauseMenu : MonoBehaviour
     void Pause()
     {
         PlaySound();
-         Cursor.lockState = CursorLockMode.None;
-         Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         isPaused = true;
@@ -57,7 +57,9 @@ public class PauseMenu : MonoBehaviour
     {
         PlaySound();
         Time.timeScale = 1f;
-        SceneManager.LoadScene("MainMenu");
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        SceneManager.LoadScene("Act0");
     }
 
     void PlaySound()
