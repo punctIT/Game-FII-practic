@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Act1
     - ButtonHoverSound
     - CamMovement
     - DetectObject
@@ -16,13 +17,10 @@ ScriptsOnlyBuild:
     - MoveCameraPositon
     - PauseMenu
     - PlayerController
+    - SaveSlotUI
     - TextFlickerWithSound
     Unity.ProBuilder.Editor.dll:
-    - UnityEditor.ProBuilder.PositionToolContext
     - UnityEditor.ProBuilder.ProBuilderEditor
-    - UnityEditor.ProBuilder.ProbuilderMoveTool
-    - UnityEditor.ProBuilder.ProbuilderRotateTool
-    - UnityEditor.ProBuilder.ProbuilderScaleTool
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
@@ -47,6 +45,9 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
   serializedClasses:
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
@@ -78,32 +79,49 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Scrollbar/ScrollEvent
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
   - assembly: Assembly-CSharp
-    fullTypeName: FirstMenu
-    methodName: LoadScene
+    fullTypeName: SaveSlotUI
+    methodName: load2btn
   - assembly: Assembly-CSharp
     fullTypeName: FirstMenu
-    methodName: LoadScene
+    methodName: continueBtn
   - assembly: Assembly-CSharp
     fullTypeName: FirstMenu
-    methodName: LoadScene
+    methodName: NewGame
+  - assembly: Assembly-CSharp
+    fullTypeName: SaveSlotUI
+    methodName: load3btn
+  - assembly: Assembly-CSharp
+    fullTypeName: SaveSlotUI
+    methodName: load1btn
   - assembly: Assembly-CSharp
     fullTypeName: FirstMenu
-    methodName: LoadScene
+    methodName: exitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: SaveSlotUI
+    methodName: save1btn
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: Resume
+  - assembly: Assembly-CSharp
+    fullTypeName: SaveSlotUI
+    methodName: save2btn
   - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
     methodName: LoadMainMenu
   - assembly: Assembly-CSharp
-    fullTypeName: PauseMenu
-    methodName: QuitGame
+    fullTypeName: SaveSlotUI
+    methodName: save3btn
   - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
     methodName: QuitGame
-  - assembly: Assembly-CSharp
-    fullTypeName: PauseMenu
-    methodName: Resume
   sceneClasses:
     Assets/Scenes/Act0.unity:
     - Class: 1
@@ -135,31 +153,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1646}
     - Class: 114
-      Script: {instanceID: 2288}
+      Script: {instanceID: 1768}
     - Class: 114
-      Script: {instanceID: 2734}
+      Script: {instanceID: 2290}
     - Class: 114
-      Script: {instanceID: 2958}
+      Script: {instanceID: 2736}
     - Class: 114
-      Script: {instanceID: 3290}
+      Script: {instanceID: 2960}
     - Class: 114
-      Script: {instanceID: 4362}
+      Script: {instanceID: 3292}
     - Class: 114
-      Script: {instanceID: 4638}
+      Script: {instanceID: 4120}
     - Class: 114
-      Script: {instanceID: 5420}
+      Script: {instanceID: 4364}
     - Class: 114
-      Script: {instanceID: 6042}
+      Script: {instanceID: 4640}
     - Class: 114
-      Script: {instanceID: 6212}
+      Script: {instanceID: 5422}
     - Class: 114
-      Script: {instanceID: 6582}
+      Script: {instanceID: 6044}
     - Class: 114
-      Script: {instanceID: 7172}
+      Script: {instanceID: 6214}
     - Class: 114
-      Script: {instanceID: 7988}
+      Script: {instanceID: 6584}
     - Class: 114
-      Script: {instanceID: 38194}
+      Script: {instanceID: 6592}
+    - Class: 114
+      Script: {instanceID: 6986}
+    - Class: 114
+      Script: {instanceID: 7174}
+    - Class: 114
+      Script: {instanceID: 7814}
+    - Class: 114
+      Script: {instanceID: 7990}
+    - Class: 114
+      Script: {instanceID: 61448}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -222,43 +250,53 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1646}
     - Class: 114
-      Script: {instanceID: 2062}
+      Script: {instanceID: 2064}
     - Class: 114
-      Script: {instanceID: 2734}
+      Script: {instanceID: 2736}
     - Class: 114
-      Script: {instanceID: 2958}
+      Script: {instanceID: 2960}
     - Class: 114
-      Script: {instanceID: 3290}
+      Script: {instanceID: 3292}
     - Class: 114
-      Script: {instanceID: 3464}
+      Script: {instanceID: 3466}
     - Class: 114
-      Script: {instanceID: 3594}
+      Script: {instanceID: 3596}
     - Class: 114
-      Script: {instanceID: 3930}
+      Script: {instanceID: 3932}
     - Class: 114
-      Script: {instanceID: 3998}
+      Script: {instanceID: 4000}
     - Class: 114
-      Script: {instanceID: 5032}
+      Script: {instanceID: 4120}
     - Class: 114
-      Script: {instanceID: 5420}
+      Script: {instanceID: 5034}
     - Class: 114
-      Script: {instanceID: 5434}
+      Script: {instanceID: 5422}
     - Class: 114
-      Script: {instanceID: 6042}
+      Script: {instanceID: 5436}
     - Class: 114
-      Script: {instanceID: 6212}
+      Script: {instanceID: 6044}
     - Class: 114
-      Script: {instanceID: 6582}
+      Script: {instanceID: 6214}
     - Class: 114
-      Script: {instanceID: 6984}
+      Script: {instanceID: 6584}
     - Class: 114
-      Script: {instanceID: 7172}
+      Script: {instanceID: 6592}
     - Class: 114
-      Script: {instanceID: 7704}
+      Script: {instanceID: 6986}
     - Class: 114
-      Script: {instanceID: 7934}
+      Script: {instanceID: 7174}
     - Class: 114
-      Script: {instanceID: 8398}
+      Script: {instanceID: 7706}
+    - Class: 114
+      Script: {instanceID: 7814}
+    - Class: 114
+      Script: {instanceID: 7936}
+    - Class: 114
+      Script: {instanceID: 8400}
+    - Class: 114
+      Script: {instanceID: 32640}
+    - Class: 114
+      Script: {instanceID: 61448}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -315,31 +353,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1646}
     - Class: 114
-      Script: {instanceID: 2116}
+      Script: {instanceID: 2118}
     - Class: 114
-      Script: {instanceID: 2734}
+      Script: {instanceID: 2736}
     - Class: 114
-      Script: {instanceID: 2958}
+      Script: {instanceID: 2960}
     - Class: 114
-      Script: {instanceID: 3998}
+      Script: {instanceID: 4000}
     - Class: 114
-      Script: {instanceID: 5032}
+      Script: {instanceID: 5034}
     - Class: 114
-      Script: {instanceID: 5420}
+      Script: {instanceID: 5422}
     - Class: 114
-      Script: {instanceID: 5434}
+      Script: {instanceID: 5436}
     - Class: 114
-      Script: {instanceID: 5538}
+      Script: {instanceID: 5540}
     - Class: 114
-      Script: {instanceID: 6042}
+      Script: {instanceID: 6044}
     - Class: 114
-      Script: {instanceID: 6212}
+      Script: {instanceID: 6214}
     - Class: 114
-      Script: {instanceID: 6582}
+      Script: {instanceID: 6584}
     - Class: 114
-      Script: {instanceID: 6984}
+      Script: {instanceID: 6986}
     - Class: 114
-      Script: {instanceID: 7704}
+      Script: {instanceID: 7706}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -381,6 +419,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 431272c332411b336620d38a93a3ccd0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TextFlickerWithSound
   - hash:
       serializedVersion: 2
       Hash: 8dff8e9853297d341afa0c11f9091b59
@@ -659,7 +703,7 @@ ScriptsOnlyBuild:
     className: UnityOnSelectMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 3981ba1a3f0547083eab920035dd366f
+      Hash: ea59f6ec642f9eb889d22c89d2cc422d
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerController
@@ -1097,7 +1141,7 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
-      Hash: 1afa6bec13b7689e8683663af98c5216
+      Hash: acce90a36e753870b0bcb828b80d3e7f
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: InventoryData
@@ -1241,7 +1285,7 @@ ScriptsOnlyBuild:
     className: LightSwitch
   - hash:
       serializedVersion: 2
-      Hash: f62f3d96bd32ee91ace783e3c357443c
+      Hash: 75316b505f777b0a87fd8eb98ee7ffa2
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: FirstMenu
@@ -1325,10 +1369,16 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 431272c332411b336620d38a93a3ccd0
+      Hash: 303ea28e29b3c1f09123b5814b42abbc
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: TextFlickerWithSound
+    className: Act1
+  - hash:
+      serializedVersion: 2
+      Hash: 8d6ad90a67e0523868558dbd045a645c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SaveSlotUI
   platform: 19
   scenePathNames:
   - Assets/Scenes/Act0.unity

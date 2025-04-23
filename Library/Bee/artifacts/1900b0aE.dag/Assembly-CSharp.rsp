@@ -366,12 +366,14 @@
 "Assets/Scripts/Meniu/ButtonHoverSound.cs"
 "Assets/Scripts/Meniu/FirstMenu.cs"
 "Assets/Scripts/Meniu/PauseMeniu.cs"
+"Assets/Scripts/Meniu/SaveMeniu.cs"
 "Assets/Scripts/Meniu/TittleDisapera.cs"
 "Assets/Scripts/ObjectScripts/Door.cs"
 "Assets/Scripts/ObjectScripts/Drawer.cs"
 "Assets/Scripts/ObjectScripts/ElevatorDoor.cs"
 "Assets/Scripts/ObjectScripts/Lightswitch.cs"
 "Assets/Scripts/ObjectScripts/LoadScene.cs"
+"Assets/Scripts/SaveContinue/Act1.cs"
 -langversion:9.0
 /deterministic
 /optimize+

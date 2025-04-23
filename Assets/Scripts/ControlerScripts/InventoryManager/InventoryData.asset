@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af477317af1b2604bbbd140ae8a15a4b, type: 3}
   m_Name: InventoryData
   m_EditorClassIdentifier: 
-  elevatorKey: 1
+  haveFlashLight: 0
+  elevatorKey: 0
+  playerPosititon: {x: -88.11518, y: -13.155436, z: 57.964325}
+  scene: Act1

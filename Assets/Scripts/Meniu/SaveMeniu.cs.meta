@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f01c0f7c0f31c9d419a1515610a6be27
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - SaveMenuUI: {instanceID: 0}
+  - inventoryData: {fileID: 11400000, guid: a7d24a6ac8b8cf34d92a9eba47897e8f, type: 2}
+  - player: {instanceID: 0}
+  - buttonClickSound: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

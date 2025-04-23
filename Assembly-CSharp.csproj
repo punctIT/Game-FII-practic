@@ -65,11 +65,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ControlerScripts\MoveCameraPositon.cs" />
+    <Compile Include="Assets\Scripts\SaveContinue\Act1.cs" />
     <Compile Include="Assets\Scripts\Meniu\ButtonHoverSound.cs" />
     <Compile Include="Assets\Scripts\ControlerScripts\InventoryManager\InventoryData.cs" />
     <Compile Include="Assets\Scripts\Meniu\FirstMenu.cs" />
     <Compile Include="Assets\Scripts\ObjectScripts\Drawer.cs" />
     <Compile Include="Assets\Scripts\ObjectScripts\Lightswitch.cs" />
+    <Compile Include="Assets\Scripts\Meniu\SaveMeniu.cs" />
     <Compile Include="Assets\Scripts\ObjectScripts\LoadScene.cs" />
     <Compile Include="Assets\Scripts\ControlerScripts\InventoryManager\Inventory.cs" />
     <Compile Include="Assets\Scripts\Meniu\PauseMeniu.cs" />

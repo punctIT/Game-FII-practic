@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public InventoryData InventoryManager;
     [Header("Step Climbing")]
     public float stepHeight = 0.3f;
     public float stepSmooth = 0.1f;
@@ -57,7 +58,11 @@ public class PlayerController : MonoBehaviour
         originalHeight = playerCollider.height;
         rb.freezeRotation = true;
         readyToJump = true;
-
+        if (InventoryManager != null)
+        {
+            rb.position = InventoryManager.playerPosititon;
+            Debug.Log("Pozitia setata la: " + InventoryManager.playerPosititon);
+        }
         audioSource = GetComponent<AudioSource>();
         if (audioSource == null)
             audioSource = gameObject.AddComponent<AudioSource>();
