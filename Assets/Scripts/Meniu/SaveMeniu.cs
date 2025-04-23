@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;  
 using TMPro;
 using System;
 using UnityEngine.SceneManagement;
@@ -11,16 +12,17 @@ public class SaveSlotUI : MonoBehaviour
     public Button[] saveButtons;
     public TMP_Text[] buttonLabels;
 
-
     public AudioClip buttonClickSound; // sunetul de buton
     private AudioSource audioSource;
 
+    public GameObject gb;
     public void save1btn(){
         PlaySound();
         inventoryData.playerPosititon=player.position;
         inventoryData.scene=Act;
         inventoryData.Save(1);
         UpdateButtonLabels();
+        Resume();
     }
     public void load1btn(){
         PlaySound();
@@ -41,7 +43,8 @@ public class SaveSlotUI : MonoBehaviour
         inventoryData.playerPosititon=player.position;
         inventoryData.scene=Act;
         inventoryData.Save(2);
-         UpdateButtonLabels();
+        UpdateButtonLabels();
+          Resume();
     }
     public void load2btn(){
         PlaySound();
@@ -49,18 +52,20 @@ public class SaveSlotUI : MonoBehaviour
             inventoryData.Load(2);
             SceneManager.LoadScene(inventoryData.scene);
         }  else {
-             FirstMenu mn = FindObjectOfType<FirstMenu>();
+            FirstMenu mn = FindObjectOfType<FirstMenu>();
             if (mn != null) {
                 mn.back();
             }
         }
     }
+
     public void save3btn(){
         PlaySound();
         inventoryData.playerPosititon=player.position;
         inventoryData.scene=Act;
         inventoryData.Save(3);
          UpdateButtonLabels();
+         Resume();
     }
     public void load3btn(){
         PlaySound();
@@ -102,5 +107,14 @@ public class SaveSlotUI : MonoBehaviour
         {
             audioSource.PlayOneShot(buttonClickSound);
         }
+    }
+     public void Resume()
+    {
+        
+        gb.SetActive(false);
+        Time.timeScale = 1f;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        EventSystem.current.SetSelectedGameObject(null);
     }
 }

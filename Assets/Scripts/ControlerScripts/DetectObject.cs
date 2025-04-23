@@ -32,6 +32,7 @@ public class DetectObject : MonoBehaviour {
           obj.GetComponent<Drawer>()?.OpenDrawer();
           obj.GetComponent<LightSwitch>()?.ToggleSwitch();
           obj.GetComponent<LoadSceneScript>()?.LoadScene();
+          obj.GetComponent<SaveObjects>()?.Pause();
           if (obj.name == "ElevatorKey") {
             playerInventory.elevatorKey=true;
             Destroy(obj);

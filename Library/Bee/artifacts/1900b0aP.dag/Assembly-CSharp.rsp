@@ -326,6 +326,7 @@
 "Assets/Scripts/ObjectScripts/Lightswitch.cs"
 "Assets/Scripts/ObjectScripts/LoadScene.cs"
 "Assets/Scripts/SaveContinue/Act1.cs"
+"Assets/Scripts/SaveContinue/SaveObjects.cs"
 -langversion:9.0
 /deterministic
 /optimize+

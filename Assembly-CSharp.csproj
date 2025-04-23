@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\ControlerScripts\InventoryManager\Inventory.cs" />
     <Compile Include="Assets\Scripts\Meniu\PauseMeniu.cs" />
     <Compile Include="Assets\Scripts\ObjectScripts\Door.cs" />
+    <Compile Include="Assets\Scripts\SaveContinue\SaveObjects.cs" />
     <Compile Include="Assets\Scripts\ControlerScripts\CharacterControler.cs" />
     <Compile Include="Assets\Scripts\Meniu\TittleDisapera.cs" />
     <Compile Include="Assets\Scripts\ObjectScripts\ElevatorDoor.cs" />

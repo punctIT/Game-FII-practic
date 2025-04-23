@@ -17,10 +17,15 @@ ScriptsOnlyBuild:
     - MoveCameraPositon
     - PauseMenu
     - PlayerController
+    - SaveObjects
     - SaveSlotUI
     - TextFlickerWithSound
     Unity.ProBuilder.Editor.dll:
+    - UnityEditor.ProBuilder.PositionToolContext
     - UnityEditor.ProBuilder.ProBuilderEditor
+    - UnityEditor.ProBuilder.ProbuilderMoveTool
+    - UnityEditor.ProBuilder.ProbuilderRotateTool
+    - UnityEditor.ProBuilder.ProbuilderScaleTool
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
@@ -122,6 +127,27 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
     methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: SaveSlotUI
+    methodName: save2btn
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: Resume
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: SaveSlotUI
+    methodName: save3btn
+  - assembly: Assembly-CSharp
+    fullTypeName: SaveSlotUI
+    methodName: save1btn
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: LoadMainMenu
   sceneClasses:
     Assets/Scenes/Act0.unity:
     - Class: 1
@@ -163,31 +189,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3292}
     - Class: 114
-      Script: {instanceID: 4120}
+      Script: {instanceID: 4122}
     - Class: 114
-      Script: {instanceID: 4364}
+      Script: {instanceID: 4366}
     - Class: 114
-      Script: {instanceID: 4640}
+      Script: {instanceID: 4642}
     - Class: 114
-      Script: {instanceID: 5422}
+      Script: {instanceID: 5424}
     - Class: 114
-      Script: {instanceID: 6044}
+      Script: {instanceID: 6046}
     - Class: 114
-      Script: {instanceID: 6214}
+      Script: {instanceID: 6216}
     - Class: 114
-      Script: {instanceID: 6584}
+      Script: {instanceID: 6586}
     - Class: 114
-      Script: {instanceID: 6592}
+      Script: {instanceID: 6594}
     - Class: 114
-      Script: {instanceID: 6986}
+      Script: {instanceID: 6988}
     - Class: 114
-      Script: {instanceID: 7174}
+      Script: {instanceID: 7032}
     - Class: 114
-      Script: {instanceID: 7814}
+      Script: {instanceID: 7180}
     - Class: 114
-      Script: {instanceID: 7990}
+      Script: {instanceID: 7820}
     - Class: 114
-      Script: {instanceID: 61448}
+      Script: {instanceID: 7992}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -262,41 +288,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3596}
     - Class: 114
-      Script: {instanceID: 3932}
+      Script: {instanceID: 3714}
     - Class: 114
-      Script: {instanceID: 4000}
+      Script: {instanceID: 3934}
     - Class: 114
-      Script: {instanceID: 4120}
+      Script: {instanceID: 4002}
     - Class: 114
-      Script: {instanceID: 5034}
+      Script: {instanceID: 4122}
     - Class: 114
-      Script: {instanceID: 5422}
+      Script: {instanceID: 5036}
     - Class: 114
-      Script: {instanceID: 5436}
+      Script: {instanceID: 5424}
     - Class: 114
-      Script: {instanceID: 6044}
+      Script: {instanceID: 5438}
     - Class: 114
-      Script: {instanceID: 6214}
+      Script: {instanceID: 6046}
     - Class: 114
-      Script: {instanceID: 6584}
+      Script: {instanceID: 6216}
     - Class: 114
-      Script: {instanceID: 6592}
+      Script: {instanceID: 6586}
     - Class: 114
-      Script: {instanceID: 6986}
+      Script: {instanceID: 6594}
     - Class: 114
-      Script: {instanceID: 7174}
+      Script: {instanceID: 6988}
     - Class: 114
-      Script: {instanceID: 7706}
+      Script: {instanceID: 7032}
     - Class: 114
-      Script: {instanceID: 7814}
+      Script: {instanceID: 7180}
     - Class: 114
-      Script: {instanceID: 7936}
+      Script: {instanceID: 7712}
     - Class: 114
-      Script: {instanceID: 8400}
+      Script: {instanceID: 7820}
     - Class: 114
-      Script: {instanceID: 32640}
+      Script: {instanceID: 7942}
     - Class: 114
-      Script: {instanceID: 61448}
+      Script: {instanceID: 8406}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -344,7 +370,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -353,38 +389,66 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1646}
     - Class: 114
+      Script: {instanceID: 2064}
+    - Class: 114
       Script: {instanceID: 2118}
     - Class: 114
       Script: {instanceID: 2736}
     - Class: 114
       Script: {instanceID: 2960}
     - Class: 114
-      Script: {instanceID: 4000}
+      Script: {instanceID: 3292}
     - Class: 114
-      Script: {instanceID: 5034}
+      Script: {instanceID: 3466}
     - Class: 114
-      Script: {instanceID: 5422}
+      Script: {instanceID: 3596}
     - Class: 114
-      Script: {instanceID: 5436}
+      Script: {instanceID: 3714}
     - Class: 114
-      Script: {instanceID: 5540}
+      Script: {instanceID: 4002}
     - Class: 114
-      Script: {instanceID: 6044}
+      Script: {instanceID: 4122}
     - Class: 114
-      Script: {instanceID: 6214}
+      Script: {instanceID: 5036}
     - Class: 114
-      Script: {instanceID: 6584}
+      Script: {instanceID: 5424}
     - Class: 114
-      Script: {instanceID: 6986}
+      Script: {instanceID: 5438}
     - Class: 114
-      Script: {instanceID: 7706}
+      Script: {instanceID: 5542}
+    - Class: 114
+      Script: {instanceID: 6046}
+    - Class: 114
+      Script: {instanceID: 6216}
+    - Class: 114
+      Script: {instanceID: 6586}
+    - Class: 114
+      Script: {instanceID: 6594}
+    - Class: 114
+      Script: {instanceID: 6988}
+    - Class: 114
+      Script: {instanceID: 7032}
+    - Class: 114
+      Script: {instanceID: 7180}
+    - Class: 114
+      Script: {instanceID: 7712}
+    - Class: 114
+      Script: {instanceID: 7820}
+    - Class: 114
+      Script: {instanceID: 8406}
+    - Class: 114
+      Script: {instanceID: 107090}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -463,7 +527,7 @@ ScriptsOnlyBuild:
     className: Drawer
   - hash:
       serializedVersion: 2
-      Hash: 263c4c5f41d576335d39122cd4a3c99b
+      Hash: fdea49b4b8a79706962463c5af00e6e2
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ElevatorDoor
@@ -721,6 +785,12 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
+      Hash: 303ea28e29b3c1f09123b5814b42abbc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Act1
+  - hash:
+      serializedVersion: 2
       Hash: e6f8333cc8a800e2866870a5ef7efc35
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -751,7 +821,7 @@ ScriptsOnlyBuild:
     className: ScriptGraphAsset
   - hash:
       serializedVersion: 2
-      Hash: 0df12ea2ff2225679ecc7bd98deba40a
+      Hash: f5bbdd99ac40e883e9f80e5d1d85470b
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: LoadSceneScript
@@ -1153,6 +1223,12 @@ ScriptsOnlyBuild:
     className: UnityOnPointerEnterMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 31a5e0f70c7e74672e1f1b67eee2c5b8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SaveSlotUI
+  - hash:
+      serializedVersion: 2
       Hash: f2305da2400dfe6f069770a1a63f0f7c
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -1369,16 +1445,10 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 303ea28e29b3c1f09123b5814b42abbc
+      Hash: 365f878d14ff1974f89b8a3b2bf5ab70
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: Act1
-  - hash:
-      serializedVersion: 2
-      Hash: 8d6ad90a67e0523868558dbd045a645c
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: SaveSlotUI
+    className: SaveObjects
   platform: 19
   scenePathNames:
   - Assets/Scenes/Act0.unity
