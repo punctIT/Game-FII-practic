@@ -33,6 +33,8 @@ public class DetectObject : MonoBehaviour {
           obj.GetComponent<LightSwitch>()?.ToggleSwitch();
           obj.GetComponent<LoadSceneScript>()?.LoadScene();
           obj.GetComponent<SaveObjects>()?.Pause();
+          obj.GetComponent<ElevatorTransport>()?.load7thFloor();
+          obj.GetComponent<ElevatorTransport1>()?.load7thFloor();
           if (obj.name == "ElevatorKey") {
             playerInventory.elevatorKey=true;
             Destroy(obj);

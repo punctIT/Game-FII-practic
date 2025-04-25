@@ -11,6 +11,7 @@ public class FirstMenu : MonoBehaviour
     public InventoryData inventory;
     public GameObject menu;
     public GameObject SaveMenu;
+    public GameObject SettingsMenu;
     private void LoadScene(string sceneToLoad)
     {
          PlaySound();
@@ -47,6 +48,11 @@ public class FirstMenu : MonoBehaviour
          PlaySound();
         SaveMenu.SetActive(false);
         menu.SetActive(true);
+    }
+    public void Setting(){
+        PlaySound();
+        menu.SetActive(false);
+        SettingsMenu.SetActive(true);
     }
      void PlaySound()
     {

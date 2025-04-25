@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class Drawer : MonoBehaviour
 {
-  
     private bool isOpen = false;
     public Transform drawer; // Sertarul propriu-zis
     public float slideDistance = 0.5f; // Cât se trage în față
@@ -14,6 +13,11 @@ public class Drawer : MonoBehaviour
     private Vector3 closedPosition;
     private Vector3 openPosition;
 
+    [Header("Sunet (opțional)")]
+    public AudioSource audioSource;
+    public AudioClip openSound;
+    public AudioClip closeSound;
+
     void Start()
     {
         closedPosition = drawer.localPosition;
@@ -22,10 +26,21 @@ public class Drawer : MonoBehaviour
 
     public void OpenDrawer()
     {
-
         if (isLocked) return;
+
         StopAllCoroutines(); // Întrerupe glisarea anterioară, dacă există
         StartCoroutine(SlideDrawer(isOpen ? closedPosition : openPosition));
+
+        // Redă sunetul corespunzător dacă există
+        if (audioSource != null)
+        {
+            AudioClip clipToPlay = isOpen ? closeSound : openSound;
+            if (clipToPlay != null)
+            {
+                audioSource.PlayOneShot(clipToPlay);
+            }
+        }
+
         isOpen = !isOpen;
     }
 

@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   haveFlashLight: 1
   elevatorKey: 1
-  playerPosititon: {x: 1.7748852, y: 0.2063787, z: 55.39276}
-  scene: Act2
+  ghost: 0
+  playerPosititon: {x: 0.7549057, y: 0.20637894, z: 54.568947}
+  scene: Act1

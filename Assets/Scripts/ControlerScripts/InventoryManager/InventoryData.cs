@@ -6,6 +6,7 @@ public class InventoryData : ScriptableObject
 {
     public bool haveFlashLight = false;
     public bool elevatorKey = false;
+    public bool ghost = false; // Noua variabilă
     public Vector3 playerPosititon;
     public string scene = "Act1";
 
@@ -14,6 +15,7 @@ public class InventoryData : ScriptableObject
     {
         public bool haveFlashLight;
         public bool elevatorKey;
+        public bool ghost; // Adăugat în clasa de salvare
         public Vector3 playerPosititon;
         public string scene;
     }
@@ -31,6 +33,7 @@ public class InventoryData : ScriptableObject
             {
                 haveFlashLight = this.haveFlashLight,
                 elevatorKey = this.elevatorKey,
+                ghost = this.ghost, // Salvăm și ghost
                 playerPosititon = this.playerPosititon,
                 scene = this.scene
             };
@@ -56,6 +59,7 @@ public class InventoryData : ScriptableObject
 
             this.haveFlashLight = data.haveFlashLight;
             this.elevatorKey = data.elevatorKey;
+            this.ghost = data.ghost; // Încărcăm ghost
             this.playerPosititon = data.playerPosititon;
             this.scene = data.scene;
 
@@ -66,9 +70,9 @@ public class InventoryData : ScriptableObject
             Debug.LogWarning($"Nu există fișier de save pentru slotul {slot} la: {path}");
         }
     }
+
     public bool SaveSlotExists(int slot)
     {
         return File.Exists(Path.Combine(Application.persistentDataPath, $"inventory_save_{slot}.json"));
     }
-
 }

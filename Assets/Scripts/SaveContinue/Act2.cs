@@ -4,15 +4,27 @@ using UnityEngine;
 
 public class Act2 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public InventoryData inventoryData;
+    public GameObject elevatorKey;
+    public GameObject elevatorlock;
+
+    public GameObject Ghost;
     void Start()
     {
-        
+        if(inventoryData.elevatorKey==true){
+            Destroy(elevatorKey);
+            Destroy(elevatorlock);
+           
+        }
     }
-
-    // Update is called once per frame
     void Update()
     {
-        
+        if(inventoryData.elevatorKey==true){
+            Destroy(elevatorKey);
+            Destroy(elevatorlock);
+          
+        }
     }
+
+
 }
