@@ -1,3 +1,6 @@
+Created as part of the "FI PRACTIC" event, under the Game Design section.
+Developed using Unity and programmed in C#.
+
 ![image](https://github.com/user-attachments/assets/0befdebf-039c-4917-a582-bb2ea523dc18)
 
 ![image](https://github.com/user-attachments/assets/2ca5ecef-5dc3-4020-a7f8-cb1383ad30f5)
